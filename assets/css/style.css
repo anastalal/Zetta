@@ -1,0 +1,16 @@
+.after-bg::after{
+    content: var(--tw-content);
+    background-image: url(../img/grid.svg);
+}
+body{
+    font-family: "Sora", sans-serif;
+}
+#reveal-anims {
+    will-change: transform;
+    transition: transform 0.1s;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+    transform-style: preserve-3d; /* Ensure children maintain the 3D space */
+}
+.js-tilt-glare{
+    border-radius: 0.75rem;
+}
