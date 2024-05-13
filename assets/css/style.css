@@ -4,6 +4,7 @@
 }
 body{
     font-family: "Sora", sans-serif;
+    max-width: 100%;
 }
 #reveal-anims {
     will-change: transform;
