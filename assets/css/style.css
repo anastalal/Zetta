@@ -2,8 +2,8 @@
     content: var(--tw-content);
     background-image: url(../img/grid.svg);
 }
-body{
-    font-family: "Sora", sans-serif;
+html, body{
+    overflow-x: hidden;
     max-width: 100%;
 }
 #reveal-anims {
